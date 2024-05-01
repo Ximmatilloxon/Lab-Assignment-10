@@ -133,6 +133,7 @@ int main(){
         root = insertNode(root, t);
     }
     cin >> d;
+
     root = deleteNode(root, d);
     printTree(root);
 }
